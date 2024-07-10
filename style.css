@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add a background image to the body */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Adjust text color for better readability on background image */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to sections */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to the footer */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
